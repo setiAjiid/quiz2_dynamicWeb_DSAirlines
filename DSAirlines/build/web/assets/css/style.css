@@ -1,0 +1,121 @@
+/* GLOBAL TYPOGRAPHY -------------------------------------------------- */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #eee;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(rgb(118, 10, 138), rgb(5, 11, 18));
+}
+
+strong { font-weight: 500; }
+
+a {
+    color: #19b9e7;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover { opacity: 0.7; }
+
+/* HEADINGS -------------------------------------------------- */
+h1, h2 {
+    margin-top: 10px;
+    font-size: 38px;
+    font-weight: 200;
+    color: #fff;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #ddd;
+    line-height: 30px;
+}
+
+img { max-width: 100%; }
+
+/* SELECTION */
+::selection { background: #19b9e7; color: #fff; }
+
+
+/* BUTTONS -------------------------------------------------- */
+.btn-link-1 {
+    display: inline-block;
+    height: 50px;
+    margin: 5px;
+    padding: 16px 20px 0 20px;
+    background: #19b9e7;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 4px;
+}
+.btn-link-1:hover { opacity: 0.75; }
+
+.btn-link-2 {
+    display: inline-block;
+    height: 50px;
+    margin: 5px;
+    padding: 15px 20px 0 20px;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    border-radius: 4px;
+}
+.btn-link-2:hover { opacity: 0.75; }
+
+
+/* FORM CONTAINER -------------------------------------------------- */
+.form-box { margin-top: 70px; }
+
+.form-top {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 4px 4px 0 0;
+    text-align: left;
+}
+
+.form-top-left h3 { color: #fff; }
+.form-top-left p { color: #ccc; }
+
+.form-bottom {
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 4px 4px;
+    text-align: left;
+}
+
+.form-bottom form button.btn { width: 100%; }
+
+.input-error { border-color: #19b9e7; }
+
+
+/* SOCIAL -------------------------------------------------- */
+.social-login h3 { color: #fff; }
+
+
+/* FOOTER -------------------------------------------------- */
+footer {
+    padding-bottom: 70px;
+    color: #fff;
+}
+footer .footer-border {
+    width: 200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+}
+footer p { opacity: 0.8; }
+
+
+/* MOBILE -------------------------------------------------- */
+@media (max-width: 767px) {
+    h1, h2 { font-size: 32px; }
+}

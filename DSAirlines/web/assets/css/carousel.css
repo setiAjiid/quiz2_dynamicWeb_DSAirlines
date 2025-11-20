@@ -1,0 +1,110 @@
+/* GLOBAL SPACING */
+body {
+  padding-top: 2rem;
+}
+
+/* ============================
+   CAROUSEL CONTAINER
+   ============================ */
+.carousel {
+  margin-bottom: 2rem;
+}
+
+/* CAPTION SETTINGS */
+.carousel-caption {
+  z-index: 10;
+  bottom: 2.5rem;
+}
+
+.carousel-caption h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-shadow: 0 0 25px rgba(0,0,0,0.85);
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* ============================
+   INDICATORS (DOT → BAR STYLE)
+   ============================ */
+.carousel-indicators {
+  bottom: 20px; /* naik sedikit biar elegan */
+}
+
+.carousel-indicators li {
+  background-color: rgba(255, 255, 255, 0.35);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 6px;
+  transition: 0.35s;
+}
+
+.carousel-indicators .active {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  width: 38px;
+  border-radius: 6px;
+}
+
+/* ============================
+   CAROUSEL IMAGES / CINEMATIC
+   ============================ */
+.carousel-item {
+  height: 32rem;
+  background-color: #000;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.78);
+  transform: scale(1);
+  transition: transform 7s ease-in-out;
+}
+
+/* Active: cinematic zoom effect */
+.carousel-item.active img {
+  transform: scale(1.06);
+}
+
+/* ============================
+   LOGO
+   ============================ */
+.ds-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 12px rgba(255,255,255,0.55);
+}
+
+/* ============================
+   FEATURETTE
+   ============================ */
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+}
+
+/* ============================
+   MOBILE RESPONSIVE
+   ============================ */
+@media (max-width: 480px) {
+  .carousel-caption h1 {
+    font-size: 1.9rem;
+  }
+  .carousel-item {
+    height: 24rem;
+  }
+  .carousel-indicators .active {
+    width: 26px;
+  }
+}

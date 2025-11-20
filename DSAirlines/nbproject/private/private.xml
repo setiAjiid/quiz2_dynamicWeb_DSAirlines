@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/web/ApproveFeatures.jsp</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/web/home.jsp</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/web/Templates/Footer.jsp</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/web/CurrentBooking.jsp</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/web/BookFlight.jsp</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/web/ShowFlights.jsp</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/web/ShowItinery.jsp</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/customer/ChooseFlight.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/customer/BookFlight.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/models/Flight.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/customer/CurrentBooking.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/web/META-INF/context.xml</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/models/Employee.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/models/FBS.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/models/Features.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/models/Person.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/models/Seat.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/SContextListener.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/OriginCompleter.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/manager/ApproveFeatures.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/manager/ApproveSeats.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/manager/DisapproveFeatures.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/manager/DisapproveSeats.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/models/Customer.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/customer/SearchFlights.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/admin/SetSeats.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/LogoutManager.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/LoginManager.java</file>
+            <file>file:/D:/Java%20Server%20Pages/Flight-Booking-System-JavaServlets_App-master/Project/DSAirlines/src/java/CustomerManager.java</file>
+        </group>
+    </open-files>
+</project-private>
