@@ -1,7 +1,6 @@
 # ✈️ Flight Booking System – Java Servlets & JSP (MVC Architecture)
 
 Sebuah aplikasi **Flight Booking System berbasis web** yang **responsif** dan dibangun menggunakan **Java Servlets** dan **Java Server Pages (JSP)** dengan arsitektur **Model-View-Controller (MVC)**.  
-Aplikasi ini mendukung sistem **autentikasi & otorisasi** menggunakan **Tomcat Roles**, serta dilengkapi fitur perlindungan terhadap **SQL Injection** dan **Cross-Site Scripting (XSS)**.
 
 ---
 
