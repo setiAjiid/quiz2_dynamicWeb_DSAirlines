@@ -64,7 +64,43 @@ Aplikasi ini dirancang untuk digunakan oleh satu maskapai penerbangan yang ingin
 
 ## 📸 Tampilan Antarmuka (Screenshots)
 
-> (Tambahkan gambar jika diperlukan, seperti halaman Home, Login, Itinerary, dll.)
+#### Home Pages
+<p align="middle">
+   <img src="sources/dashboard_1.png" width="400"/>
+   <img src="sources/dashboard_2.png" width="400"/>
+   <img src="sources/dashboard_3.png" width="400"/>
+</p>
+
+#### Login Page and Book Flight
+<p align="middle">
+   <img src="sources/loginPage.png" width="400"/>
+   <img src="sources/currentBooking.png" width="400"/>
+
+</p>
+
+#### Current Bookings and Itinerary
+<p align="middle">
+   <img src="sources/searchFlight.png" width="400"/>
+   <img src="sources/getFlight.png" width="400"/>
+   <img src="sources/myItenary.png" width="400"/>
+   <img src="sources/newCurrentBookings.png" width="400"/>  
+</p>
+
+#### Seat Features and Seats as Admin
+<p align="middle">
+   <img src="sources/updateCabinFeatures.png" width="400"/>
+   <img src="sources/updatedCabinFeatures.png" width="400"/>
+   <img src="sources/setSeats.png" width="400"/>
+   <img src="sources/updateSeats.png" width="400"/>
+   <img src="sources/calculatedSeats.png" width="400"/>
+</p>
+
+#### Approval New Features and Seats as Manager
+<p align="middle">
+   <img src="sources/approveNewFeatures.png" width="400"/>
+   <img src="sources/approvedNewFeatures.png" width="400"/>
+</p>
+
 
 ---
 
