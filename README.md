@@ -102,5 +102,47 @@ Aplikasi ini dirancang untuk digunakan oleh satu maskapai penerbangan yang ingin
 </p>
 
 
+## 🚀 Cara Menjalankan Project
+
+### 1. Install Tools yang Dibutuhkan
+
+Pastikan kamu sudah menginstall:
+
+- **Java SE Development Kit 8 (JDK 8)**  
+   Download: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+- **NetBeans IDE** (versi dengan Apache Tomcat di dalamnya – wajib!)  
+   Download: https://netbeans.org/downloads/
+
+### 2. Konfigurasi Apache Tomcat (Roles & Users)
+
+1. Buka **NetBeans IDE**
+2. Masuk ke: **Services → Servers → Apache Tomcat**
+3. Klik kanan **Apache Tomcat → Properties**
+4. Copy nilai **Catalina Base Path**, lalu buka folder tersebut
+5. Buka folder **conf → tomcat-users.xml**
+6. Tambahkan konfigurasi role dan user berikut sebelum tag penutup `</tomcat-users>`:
+
+```xml
+<role rolename="Manager"/>
+<role rolename="Admin"/>
+<role rolename="Customer"/>
+
+<user username="dimas@admin.com" password="a" roles="Admin"/>
+<user username="steven@manager.com" password="m" roles="Manager"/>
+<user username="shariq@customer.com" password="c" roles="Customer"/>
+```
+
+> **Catatan:** Hanya user yang terdaftar di file ini yang bisa login ke sistem DSAirlines. Gunakan credential di atas untuk mengakses aplikasi sesuai role-nya.
+
+### 3. Menjalankan Project
+
+1. Restart **NetBeans**
+2. Klik **File → Open Project**
+3. Arahkan ke folder project kamu: `Project/DSAirlines`
+4. Pilih project **DSAirlines**, lalu klik **Open Project**
+5. Pastikan server **Tomcat** sudah berjalan
+6. Klik **Run Project** untuk menjalankan aplikasi
+
 ---
 
